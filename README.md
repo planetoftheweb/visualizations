@@ -11,11 +11,11 @@ npm install
 # Start development server
 npm run dev
 
-# Build for production
+# Build for production (outputs to docs/ folder)
 npm run build
 
-# Deploy to GitHub Pages
-npm run deploy
+# Preview production build locally
+npm run preview
 ```
 
 ## Features
@@ -99,8 +99,9 @@ Built with:
 
 Configured for GitHub Pages:
 1. Update `base` in `vite.config.ts` to match your repo name
-2. Run `npm run deploy`
-3. Enable GitHub Pages in repo settings (gh-pages branch)
+2. Run `npm run build` (outputs to `docs/` folder)
+3. Commit and push to main branch
+4. In GitHub repo settings → Pages, set source to "Deploy from a branch" with `main` branch and `/docs` folder
 
 ## Data Storage
 

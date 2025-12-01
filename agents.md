@@ -185,14 +185,13 @@ case 'my-viz':
 - **Vite 5**: Build tool and dev server
 - **D3.js 7**: Data visualization (for context window chart)
 - **Tailwind CSS 3**: Styling
-- **gh-pages**: GitHub Pages deployment
 
 ## Build & Deploy
 
 - **Dev**: `npm run dev` (port 5173)
-- **Build**: `npm run build` (outputs to `dist/`)
+- **Build**: `npm run build` (outputs to `docs/`)
 - **Preview**: `npm run preview` (preview production build)
-- **Deploy**: `npm run deploy` (builds and pushes to gh-pages branch)
+- **Deploy**: Commit `docs/` folder to main branch, configure GitHub Pages to serve from `/docs`
 
 ## Important Notes
 

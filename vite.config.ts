@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   base: '/visualizations/',
   build: {
-    outDir: 'dist',
+    outDir: 'docs',
   },
 })
 
