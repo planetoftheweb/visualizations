@@ -441,7 +441,7 @@ export default function Infographic() {
                 style={{ backgroundColor: "#16a34a" }}
               />
               <span className="font-semibold text-gray-100">ChatGPT Free</span>
-              <span className="uppercase tracking-wide text-xs text-gray-400">gpt-4o-mini</span>
+              <span className="uppercase tracking-wide text-xs text-gray-400">Model varies</span>
             </span>
             <span className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-neutral-900 border border-neutral-700 shadow-sm text-sm">
               <span
@@ -485,7 +485,7 @@ export default function Infographic() {
                       </div>
                     </div>
                   </td>
-                  <td className="py-3 pr-4 text-gray-200 align-top text-sm lg:text-base">gpt-4o-mini</td>
+                  <td className="py-3 pr-4 text-gray-200 align-top text-sm lg:text-base">Model varies</td>
                   <td className="py-3 pr-4 text-gray-200 align-top text-sm lg:text-base">gpt-mini</td>
                   <td className="py-3 pr-4 text-gray-400 align-top text-sm lg:text-base">
                     OpenAI notes that usage may fall back to lighter models, but the number of
